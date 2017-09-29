@@ -79,8 +79,8 @@ for root, dir, files in os.walk("./data/notMNIST"):
             continue
 
         # compute some meta data about this image
-        height    = image_numpy.shape[0]
-        width     = image_numpy.shape[1]
+        height = image_numpy.shape[0]
+        width  = image_numpy.shape[1]
 
         # the human text label for the image category
         image_label = os.path.split(root)[-1]
